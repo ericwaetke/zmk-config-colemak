@@ -79,10 +79,10 @@
             //                   |-SYM-| SPC | | RET |-NUM-|
 
             bindings = <
-&kp Q  &kp W  &kp F  &kp P    &kp B        &kp J    &kp L    &kp U      &kp Y    &kp BACKSPACE
-&kp A  &kp R  &kp S  &kp T    &kp G        &kp M    &kp N    &kp E      &kp I    &kp O
-&kp Z  &kp X  &kp C  &kp D    &kp V        &kp K    &kp H    &kp COMMA  &kp DOT  &mo FUN
-                     &mo SYM  &kp SPACE    &kp RET  &mo NUM
+&kp Q               &kp W           &kp F               &kp P             &kp B                     &kp J                   &kp L             &kp U               &kp Y           &kp BACKSPACE
+&hm LEFT_COMMAND A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &hm LS(LC(LA(LGUI))) G    &hm LS(LC(LA(LGUI))) M  &hm LEFT_SHIFT N  &hm LEFT_CONTROL E  &hm LEFT_ALT I  &hm LEFT_COMMAND O
+&kp Z               &kp X           &kp C               &kp D             &kp V                     &kp K                   &kp H             &kp COMMA           &kp DOT         &mo FUN
+                                                        &mo SYM           &kp SPACE                 &kp RET                 &mo NUM
             >;
         };
 
