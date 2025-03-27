@@ -17,6 +17,11 @@
 #define DAN 5
 #define LCK 6
 
+&mt {
+    flavor = "tap-preferred";
+    tapping_term_ms = <285>;
+};
+
 &caps_word { continue-list = <UNDERSCORE MINUS BACKSPACE>; };
 
 / {
